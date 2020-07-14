@@ -1,5 +1,5 @@
 body {
-    background-color: slategray;
+    background-color: white;
 
 
 }
@@ -17,4 +17,21 @@ button {
     border-radius: 50%;
     margin: auto;
     background-color: goldenrod;
+}
+
+  .blocks div{
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:  150px;
+    height: 230px;
+    margin: auto;
+    background-color:silver;
+    border: 6px solid #ffffff;
+    border-radius: 15%;
+    
+    
+
 }
