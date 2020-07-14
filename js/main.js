@@ -1,2 +1,2 @@
-console.log('senity check')
+console.log('senity checks')
 
