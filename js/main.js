@@ -27,25 +27,23 @@ function onCardClicked(event) {
         clickedCard = target;
       } else if (clickedCard) {
         preventClick = false;
-        if (
-            clickedCard.getAttribute('data-color') !== 
-            target.getAttribute('data-color')
+        if (clickedCard.getAttribute('data-color') !== target.getAttribute('data-color')
         ) {
+            // console log to check if works good
             console.log('cards not the same')
             clickedCard.className += 'done';
-            clickedCard.className += 'done';
+            
            
 
           setTimeout(() => {
-            clickedCard.className = 
-             clickedCard.className.replace('done', '').trim() + 
-             'color-hidden';
-             target.className = 
-             clickedCard.className.replace('done', '').trim() + 
-             ' color-hidden';
+            clickedCard.className = clickedCard.className.replace('done', '').trim() + ' color-hidden';
+             target.className = target.className.replace('done', '').trim() + ' color-hidden';
              clickedCard = null;
              preventClick =false;
             }, 700);
+
+
+
         } else {
             pairFound ++;
           clickedCard = null;
