@@ -31,7 +31,50 @@ button {
     background-color:silver;
     border: 6px solid #ffffff;
     border-radius: 15%;
-    
-    
-
 }
+
+.row {
+    text-align: center;
+    }
+    .card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:silver;
+    cursor: pointer;
+    
+    }
+    .cards.done {
+        cursor: default;
+    }
+    .card.done:hover {
+        cursor: default;
+        box-shadow: none;
+    }
+    .card:hover {
+        box-shadow: inset 0px 0px 0px 2px green;
+        box-sizing: border-box;
+    }
+    
+    .red {
+        background-color: red;
+    }
+    .green {
+        background-color: green;
+    }
+    .blue {
+        background-color: blue;
+    }
+    .yellow {
+        background-color: yellow;
+    }
+    .pink {
+        background-color: pink;
+    }
+    .cyan {
+        background-color: cyan;
+    }
+    
+    .color-hidden {
+        background-color:silver;
+    }
