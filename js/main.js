@@ -5,10 +5,9 @@
 
 const blocksContainer = document.querySelector('.blocks')
 document.querySelector('button').addEventListener("click", () => {
-    createBlocks(12)
+    
 })
 
-// // // create the blocks
 
 let  clickedCard = null;
 let preventClick = false;
@@ -33,17 +32,12 @@ function onCardClicked(event) {
             console.log('cards not the same')
             clickedCard.className += 'done';
             
-           
-
           setTimeout(() => {
             clickedCard.className = clickedCard.className.replace('done', '').trim() + ' color-hidden';
              target.className = target.className.replace('done', '').trim() + ' color-hidden';
              clickedCard = null;
              preventClick =false;
-            }, 700);
-
-
-
+            }, 200);
         } else {
             pairFound ++;
           clickedCard = null;

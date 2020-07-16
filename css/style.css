@@ -9,8 +9,8 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 250px;
-    width: 500px;
+    height: 230px;
+    width: 400px;
     font-family: sans-serif;
     font-weight: 800;
     font-size: 45px;
@@ -38,22 +38,27 @@ button {
     }
     .card {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 110px;
     background-color:silver;
     cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out;
     
     }
     .cards.done {
         cursor: default;
+        
     }
     .card.done:hover {
         cursor: default;
         box-shadow: none;
+        
     }
     .card:hover {
         box-shadow: inset 0px 0px 0px 2px green;
         box-sizing: border-box;
+        transition: all o.9s ease-in;
     }
     
     .red {
@@ -68,11 +73,11 @@ button {
     .yellow {
         background-color: yellow;
     }
-    .pink {
-        background-color: pink;
+    .purple {
+        background-color: purple;
     }
-    .cyan {
-        background-color: cyan;
+    .goldenrod {
+        background-color: goldenrod;
     }
     
     .color-hidden {
