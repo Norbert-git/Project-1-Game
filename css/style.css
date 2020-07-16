@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    
+    background-color: rgba(7, 1, 1, 0.934);
 
 
 }
@@ -17,21 +18,10 @@ button {
     border-radius: 50%;
     margin: auto;
     background-color: goldenrod;
+    outline: none;
+    
 }
 
-  .blocks div{
-    display: flex;
-    display: inline-block;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width:  150px;
-    height: 230px;
-    margin: auto;
-    background-color:silver;
-    border: 6px solid #ffffff;
-    border-radius: 15%;
-}
 
 .row {
     text-align: center;
@@ -40,10 +30,9 @@ button {
     display: inline-block;
     width: 160px;
     height: 110px;
-    background-color:silver;
     cursor: pointer;
     transform: translateY(-10px);
-    transition: all 0.5s ease-in-out;
+    transition: all o.5s ease-in-out;
     
     }
     .cards.done {
@@ -60,26 +49,41 @@ button {
         box-sizing: border-box;
         transition: all o.9s ease-in;
     }
-    
+
+   
+
     .red {
-        background-color: red;
+        background-image: url(../img/photo-1.jpeg);
+        background-size: contain;
     }
     .green {
+        background-image: url(../img/photo-2.jpeg);
+        background-size: contain;
         background-color: green;
     }
     .blue {
-        background-color: blue;
+        background-image: url(../img/photo-3.jpeg);
+        background-size: contain;
+        
     }
     .yellow {
-        background-color: yellow;
+        background-image: url(../img/photo-4.jpeg);
+        background-size: contain;
+        
     }
     .purple {
-        background-color: purple;
+        background-image: url(../img/photo-5.jpeg);
+        background-size: contain;
+        
     }
     .goldenrod {
-        background-color: goldenrod;
+        background-image: url(../img/photo-6.jpeg);
+        background-size: contain;
+        
     }
     
     .color-hidden {
-        background-color:silver;
+        background-image: url(../img/photo-7.jpeg);
+        background-size: cover;
     }
+
