@@ -1,6 +1,6 @@
 body {
     
-    background-color: rgba(7, 1, 1, 0.934);
+    background-color: rgba(12, 1, 1, 0.927);
 
 
 }
@@ -47,39 +47,37 @@ button {
     .card:hover {
         box-shadow: inset 0px 0px 0px 2px green;
         box-sizing: border-box;
-        transition: all o.9s ease-in;
+        transition: all o.6s ease-in;
     }
 
    
 
     .red {
         background-image: url(../img/photo-1.jpeg);
-        background-size: contain;
+        background-size: cover;
+       
     }
     .green {
         background-image: url(../img/photo-2.jpeg);
-        background-size: contain;
-        background-color: green;
+        background-size: cover;
     }
     .blue {
         background-image: url(../img/photo-3.jpeg);
-        background-size: contain;
+        background-size: cover;
         
     }
     .yellow {
         background-image: url(../img/photo-4.jpeg);
-        background-size: contain;
-        
+        background-size: cover;
     }
     .purple {
         background-image: url(../img/photo-5.jpeg);
-        background-size: contain;
+        background-size: cover;
         
     }
     .goldenrod {
         background-image: url(../img/photo-6.jpeg);
-        background-size: contain;
-        
+        background-size: cover;
     }
     
     .color-hidden {
