@@ -1,8 +1,6 @@
  console.log('senity checks')
 
 
-
-
   let  clickedCard = null;
   let preventClick = false;
   let pairFound = 0;
@@ -21,7 +19,7 @@
         preventClick = false;
         if (clickedCard.getAttribute('data-color') !== target.getAttribute('data-color')
         ) {
-            // console log to check if works good
+            // console log to check if it works good
             console.log('cards not the same')
             clickedCard.className += 'done';
             

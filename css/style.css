@@ -3,7 +3,6 @@ body {
 
 
 }
-
 button {
     display: flex;
     flex-direction: row;
@@ -36,8 +35,6 @@ a.button {
     outline: none;
     
 }
-
-
 .row {
     text-align: center;
     }
@@ -49,7 +46,6 @@ a.button {
     transform: translateY(-10px);
     transition: all o.5s ease-in-out;
     }
-
 
     .cards.done {
         cursor: default;
@@ -65,8 +61,6 @@ a.button {
         box-sizing: border-box;
         transition: all o.9s ease-in;
     }
-
-   
 
     .red {
         background-image: url(../img/photo-1.jpeg);
