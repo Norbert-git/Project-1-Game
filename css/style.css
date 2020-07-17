@@ -1,10 +1,25 @@
 body {
-    
-    background-color: rgba(12, 1, 1, 0.927);
+    background-color: black;
 
 
 }
 
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 400px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: goldenrod;
+    outline: none;
+    
+}
 a.button {
     display: flex;
     flex-direction: row;
@@ -19,6 +34,7 @@ a.button {
     margin: auto;
     background-color: goldenrod;
     outline: none;
+    
 }
 
 
@@ -32,8 +48,9 @@ a.button {
     cursor: pointer;
     transform: translateY(-10px);
     transition: all o.5s ease-in-out;
-    
     }
+
+
     .cards.done {
         cursor: default;
         
@@ -46,41 +63,42 @@ a.button {
     .card:hover {
         box-shadow: inset 0px 0px 0px 2px green;
         box-sizing: border-box;
-        transition: all o.6s ease-in;
+        transition: all o.9s ease-in;
     }
 
    
 
     .red {
         background-image: url(../img/photo-1.jpeg);
-        background-size: cover;
-       
+        background-size: contain;
     }
     .green {
         background-image: url(../img/photo-2.jpeg);
-        background-size: cover;
+        background-size: contain;
+        background-color: green;
     }
     .blue {
         background-image: url(../img/photo-3.jpeg);
-        background-size: cover;
+        background-size: contain;
         
     }
     .yellow {
         background-image: url(../img/photo-4.jpeg);
-        background-size: cover;
+        background-size: contain;
+        
     }
     .purple {
         background-image: url(../img/photo-5.jpeg);
-        background-size: cover;
+        background-size: contain;
         
     }
     .goldenrod {
         background-image: url(../img/photo-6.jpeg);
-        background-size: cover;
+        background-size: contain;
+        
     }
     
     .color-hidden {
         background-image: url(../img/photo-7.jpeg);
         background-size: cover;
     }
-
