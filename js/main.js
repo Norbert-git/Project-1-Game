@@ -1,9 +1,16 @@
 console.log('senity checks')
 
-// Can `t get the start button to work
-document.querySelector('button').addEventListener("click", function() {
 
-})
+
+document.getElementById("start").addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("start").onCardClicked(event);
+} 
+
+ 
+
+
  let  clickedCard = null;
  let preventClick = false;
  let pairFound = 0;
@@ -22,7 +29,7 @@ document.querySelector('button').addEventListener("click", function() {
        preventClick = false;
        if (clickedCard.getAttribute('data-color') !== target.getAttribute('data-color')
        ) {
-           // console log to check if works good
+           // console log to check if works good or not
            console.log('cards not the same')
            clickedCard.className += 'done';
            

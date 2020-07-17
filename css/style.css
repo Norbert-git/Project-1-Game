@@ -5,7 +5,7 @@ body {
 
 }
 
-button {
+a.button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,7 +19,6 @@ button {
     margin: auto;
     background-color: goldenrod;
     outline: none;
-    
 }
 
 
