@@ -17,6 +17,7 @@
         clickedCard = target;
       } else if (clickedCard) {
         preventClick = false;
+        // compare the two 'cards' or 'pictures' if not the same
         if (clickedCard.getAttribute('data-color') !== target.getAttribute('data-color')
         ) {
             // console log to check if it works good
