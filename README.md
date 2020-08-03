@@ -6,7 +6,7 @@ You will see  twelve boxes, each box has a picture in it, you have to find two s
 
 
 ### How to play 
-Player will click two boxes and two Pictures will be revaled, 
+Player will click two boxes and two Pictures will be revealed, 
 To win the game player has to find all the pairs.
 
 The object of the game is to turn over all pairs of matching pictures. 
